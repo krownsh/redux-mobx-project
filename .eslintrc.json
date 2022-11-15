@@ -1,0 +1,12 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": ["airbnb"],
+  "rules": {
+    "indent": ["error", 4], //空格不為4的話就會觸發error(error也可以改成warning之類的)
+    "react/jsx-indent": ["error", 4],
+    "react/prefer-stateless-function": "off",
+    "linebreak-style": ["error", "windows"]
+  }
+}
